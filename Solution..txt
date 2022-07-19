@@ -1,0 +1,18 @@
+1. Create a new repository in the GitHub. Name it Iron+ your name.
+	Named it IronAlfon
+
+2. Clone that repo to your computer.
+	$ git clone https://github.com/Alfon22A/IronAlfon
+
+3. Create a file in that folder. Name it about.txt and add a fun fact about yourself.
+	$ touch AboutAlfon.txt
+	$ echo "Hi! My name is Alfon and my favourite number is 22 because it's my birthday!" > AboutAlfon.txt
+
+4. Add the file you just created to the git.
+	$ git add AboutAlfon.txt
+
+5. Commit the changes.
+	$ git commit -m "About file"
+
+6. Push the changes to the GitHub and check your repository to make sure everything is there.
+	$ git push origin main
